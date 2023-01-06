@@ -1,7 +1,6 @@
 import { useState, useEffect, useCallback } from "react";
 import useWindowSize from "../hook/useWindowSize";
 function Slider() {
-  // SALVE O STATE
   const { width } = useWindowSize();
   const movies = Array(16).fill("https://via.placeholder.com/250");
 
